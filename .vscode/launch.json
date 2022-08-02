@@ -1,0 +1,32 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: 
+    // https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+    
+        // https://jestjs.io/docs/troubleshooting
+        {
+            "name": "Debug Jest Tests for Modules",   
+     
+            // https://stackoverflow.com/questions/47540627/
+            // how-to-configure-vs-code-working-directory-in-the-launch-json
+            "cwd": "${workspaceRoot}/pathToMyJestModuleTestDir",
+
+            "type": "node",
+            "request": "launch",
+            "runtimeArgs": [
+                "--inspect-brk",
+                // https://stackoverflow.com/questions/60372790/
+                // node-v13-jest-es6-native-support-for-modules-without-babel-or-esm
+                "--experimental-vm-modules",
+                "",
+                "--runInBand"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "port": 9229
+        }
+    ]
+}

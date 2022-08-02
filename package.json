@@ -1,0 +1,30 @@
+{
+  "name": "learn-typescript",
+  "version": "1.0.0",
+  "description": "learn typescript with easy frontend",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hachiman12a1/learn-typescript.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "Hachiman12a1",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hachiman12a1/learn-typescript/issues"
+  },
+  "homepage": "https://github.com/Hachiman12a1/learn-typescript#readme",
+  "devDependencies": {
+    "@types/jest": "^28.1.6",
+    "ts-jest": "^28.0.7",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "jest": "^28.1.3"
+  }
+}
