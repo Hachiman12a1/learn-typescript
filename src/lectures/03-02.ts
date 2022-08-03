@@ -39,12 +39,13 @@ interface Student {
 }
 // declaration merging
 // works, no error
-interface Student {
-  age?: number;
-}
+// interface Student {
+//   age?: number;
+// }
 const alice: Student = {
   id: 1,
   name: "Alice",
+  age: 0
 };
 
 // type Student1 = {
