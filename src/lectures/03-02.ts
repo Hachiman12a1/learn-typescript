@@ -45,7 +45,7 @@ interface Student {
 const alice: Student = {
   id: 1,
   name: "Alice",
-  age: 0
+  // age: 0
 };
 
 // type Student1 = {

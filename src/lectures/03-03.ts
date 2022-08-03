@@ -25,13 +25,13 @@
 interface Student {
   id: number;
   name: string;
-  age: number;
+  // age: number;
 }
-function createStudent({ id, name, age }: Student) {
-  console.log(id, name, age);
+function createStudent({ id, name }: Student) {
+  console.log(id, name);
 }
 createStudent({
   id: 1,
   name: "Bob",
-  age: 18,
+  // age: 18,
 } as Student);
